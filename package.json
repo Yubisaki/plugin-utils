@@ -2,10 +2,18 @@
   "name": "@yubisaki/plugin-utils",
   "version": "0.1.0",
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
   },
   "description": "utils for yubisaki plugins",
   "main": "index.js",
   "author": "子肃 <stickmyc@163.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "release": "release-it"
+  },
+  "devDependencies": {
+    "conventional-changelog-cli": "^2.0.5",
+    "release-it": "^7.6.1"
+  }
 }
